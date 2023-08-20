@@ -64,7 +64,7 @@ export default function LoginPage() {
       />
 
       <button className="px-5 py-2 bg-blue-400 mt-3 rounded-lg hover:px-7 hover:py-3 " type="submit" onClick={onLogin}>
-       {buttonDisabled?'no Login':'login'}
+       {buttonDisabled?'No Login':'Login'}
       </button>
       <Link href={'/signup'}>Visit Signup page</Link>
     </div>
